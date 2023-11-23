@@ -74,7 +74,11 @@ eliminarTodos.addEventListener("click",function(){
     jokeContainer.innerHTML="";
     localStorage.clear();
 })
-console.log(btnEliminar);
+btnEliminar.forEach(element => {
+    element.addEventListener("click",function(){
+        
+    })
+});
 
 
 // Manejador de click en el botón "Obtener Chiste"
