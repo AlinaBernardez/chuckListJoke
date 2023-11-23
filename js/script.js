@@ -1,6 +1,6 @@
 const jokeBtn = document.getElementById('fetchJoke');
 const eliminarTodos = document.getElementById('eliminarTodos')
-const btnEliminar = document.querySelectorAll("btnEliminar");
+const btnEliminar = document.getElementsByClassName("btnEliminar");
 let jokeContainer = document.getElementById('jokeList');
 let arrayChistes = []
 
